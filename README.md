@@ -204,26 +204,32 @@ Year:
 
 **(c) For the boundary condition A + B > C case (scalene triangle), identify test cases to verify the boundary.** <br/>
 A = 1, B = 3, C = 2
+
 **(d) For the boundary condition A = C case (isosceles triangle), identify test cases to verify the boundary.** <br/>
-A = 3,B = 2, C = 3
+A = 3, B = 2, C = 3
+
 **(e) For the boundary condition A = B = C case (equilateral triangle), identify test cases to verify the boundary.**<br/>
-A = 30,B = 30,C = 30
+A = 30, B = 30, C = 30
+
 **(f) For the boundary condition A2 + B2 = C2 case (right-angle triangle), identify test cases to verify the boundary.** <br/>
-A = 6,B = 8,C = 10
-**(g)  For the non-triangle case, identify test cases to explore the boundary.**
-A = 20, B = 10,C = 5
+A = 6, B = 8, C = 10
+
+**(g)  For the non-triangle case, identify test cases to explore the boundary.**<br/>
+A = 20, B = 10, C = 5
+
 **(h) For non-positive input, identify test points.**
 A = 0, B = 10, C = 0 <br/>
-A = 0,B = 0,C = 0 <br/>
-A = 0, B = -1, C = 10<br/>
+A = 0, B = 0, C = 0 <br/>
+A = 0, B = -1, C = 10 <br/>
 
 # Section B
-**(1) Control flow graph**
+**1. Control flow graph**
+
 ![image](https://user-images.githubusercontent.com/94627901/231486591-92d070db-7388-4017-bb1d-5c2127f917d2.png)
 
-**(2) Test Cases **
-**(a) Statement coverage test set: ** In this all the statements in code should be covered
-<br/>
+**2. Test Cases** </br>
+
+**(a) Statement coverage test set:** In this all the statements in code should be covered <br/>
 | Test Number | Test Case |
 |-------------|-----------|
 | 1 | p is empty array |
@@ -232,9 +238,8 @@ A = 0, B = -1, C = 10<br/>
 | 4 | p has two points object with different x component |
 | 5 | p has three or more point object with different y component |
 
-**(b) Branch Coverage test set: ** In this all branch are taken atleast once
-<br/>
 
+**(b) Branch Coverage test set:** In this all branch are taken atleast once <br/>
 | Test Number | Test Case |
 |-------------|-----------|
 | 1 | p is empty array |
@@ -247,8 +252,8 @@ A = 0, B = -1, C = 10<br/>
 | 8 | p has three or more point object with all different x component |
 | 9 | p has three or more point object with some same and some different x component |
 
-**(c) Basic condition coverage test set: **Each boolean expression has been evaluated to both true and false
 
+**(c) Basic condition coverage test set:** Each boolean expression has been evaluated to both true and false
 | Test Number | Test Case |
 |-------------|-----------|
 | 1 | p is empty array |
