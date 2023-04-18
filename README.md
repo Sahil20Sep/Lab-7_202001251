@@ -195,12 +195,12 @@ Year:
 **(b) Identify test cases to cover the identified equivalence classes. Also, explicitly mention which test case would cover which equivalence class.**
 | Test Case ID | Class ID | Test Case |
 |--------------|----------|-----------|
-| T1 | E1 | A = 1,B = 1,C = 1 |
+| T1 | E1 | A = 1, B = 1, C = 1 |
 | T2 | E1 | A = 3, B = 4, C= 5 |
-| T3 | E2 | A = 0,B = 0,C = 1 |
-| T4 | E3 | A = 0,B = 1,C = 2 |
+| T3 | E2 | A = 0, B = 0, C = 1 |
+| T4 | E3 | A = 0, B = 1, C = 2 |
 | T5 | E4 | A = 1, B = 3, C = 8 |
-| T6 | E5 | A = -1,C = 1,D = 5 |
+| T6 | E5 | A = -1, C = 1, D = 5 |
 
 **(c) For the boundary condition A + B > C case (scalene triangle), identify test cases to verify the boundary.** <br/>
 A = 1, B = 3, C = 2
